@@ -1,0 +1,57 @@
+.points {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.points > .point {
+  margin: 0rem 0rem 1rem 0rem;
+}
+.doing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.thing {
+  margin: 1rem;
+}
+.content {
+  padding: -2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.content > .bottom {
+  text-align: center;
+}
+
+.thing {
+    font-size: 1rem;
+}
+
+.thing img {
+  margin: 1rem;
+  width: 13rem;
+}
+.new-posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.new-posts > .post {
+  padding: 1rem 1rem;
+}
+
+@media (max-width: 600px) {
+  .new-posts {
+    grid-template-rows: repeat(2);
+    grid-template-columns: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .doing {
+    flex-direction: column;
+  }
+}

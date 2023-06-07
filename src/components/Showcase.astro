@@ -1,0 +1,38 @@
+---
+import "./styles/showcase.css";
+export interface Props {
+  heading?: string;
+  text?: string;
+  showPicture?: boolean;
+  backgroundPic?: string;
+}
+
+const {
+  heading = "Aerial Robotics IITK",
+  text = "We build drones so you don't have to",
+  showPicture = true,
+  backgroundPic = "",
+} = Astro.props as Props;
+---
+
+<section class="showcase">
+  <div class="video-container">
+    {
+      showPicture ? (
+        <>
+          <img loading="lazy" src={backgroundPic} alt="" />
+        </>
+      ) : (
+        <>
+          <video autoplay muted loop>
+            <source src={backgroundPic} type="video/mp4" />
+          </video>
+        </>
+      )
+    }
+    <div class="showcase-text">
+      <h1 style="font-family: 'Black Ops One'">{heading}</h1>
+      <p>{text}</p>
+    </div>
+  </div>
+</section>
