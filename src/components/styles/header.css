@@ -4,17 +4,15 @@
   z-index: 1;
 }
 .logo-outer > .name {
+  font-family: 'GalanoB';
   color: white;
-  font-size: 2.3rem;
-  margin-left: -0.1rem;
-  margin-top: 3.4rem;
+  font-size: 2.2rem;
+  margin-left: 1.2rem;
+  margin-top: 0rem;
   font-weight: 700;
 }
 .logo {
-  margin-top: 1.5rem;
-  width: 8rem; /* or whatever width you want. */
-  height: 8rem;
-  padding: 1rem;
+  margin-top: .4rem;
   border-radius: 50%;
   background-color: var(--color-primary);
 }
@@ -33,7 +31,7 @@ nav {
 .header {
   position: fixed;
   width: 100vw;
-  height: 6.5rem;
+  height: 6rem;
   background: var(--color-primary);
   /* margin-top: 1.8rem; */
   margin-bottom: 2rem;
@@ -51,26 +49,26 @@ nav {
 
 .header nav ul {
   display: flex;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 .header nav ul li {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 0 1rem;
 }
 
 .header nav ul li a {
-  color: #fff;
+  color: #858c9c;
 }
 .header nav ul li a:hover {
   font-weight: 500;
-  color: #b8ebff;
-  text-decoration-line: underline;
+  color: #ffffff;
 }
 
 @media (max-width: 900px) {
-  .name {
+  /* .name {
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 600px) {
