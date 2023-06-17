@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Raleway:wght@400;600;700&family=Roboto+Slab:wght@400;700&family=Space+Mono:wght@400;700&display=swap");
+/* Impoting fonts */
+@font-face {
+  font-family: 'GalanoB';
+  src: url("/src/fonts/Galano-Grotesque-Alt-Bold.otf");
+}
+@font-face {
+  font-family: 'GalanoM';
+  src: url("/src/fonts/Galano-Grotesque-Alt-Medium.otf");
+}
+@font-face {
+  font-family: 'GalanoR';
+  src: url("/src/fonts/Galano-Grotesque-Alt.otf");
+}
+@font-face {
+  font-family: 'fa';
+  src: url("/src/fonts/fa.ttf");
+}
 
 :root {
   --color-primary: #0f172a;

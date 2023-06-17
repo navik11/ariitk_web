@@ -3,7 +3,7 @@ import "./styles/footer.css";
 import { Image, Picture } from "@astrojs/image/components";
 ---
 
-<footer class="footer">
+<!-- <footer class="footer">
   <div class="container">
     <div class="intro">
       <h3>Aerial Robotics IITK</h3>
@@ -41,7 +41,7 @@ import { Image, Picture } from "@astrojs/image/components";
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
-  <div class="sponsors">
+ <div class="sponsors">
     <div class="head">
       <h3>Our Sponsors</h3>
     </div>
@@ -67,5 +67,36 @@ import { Image, Picture } from "@astrojs/image/components";
         />
       </div>
     </div>
+  </div> 
+</footer>--> 
+
+
+<section class="footer">
+  <div class="social">
+    <a href="#" id="meta"><img src="/meta.svg"></a>
+    <a href="#" id="twitter"><img src="/twitter.svg"></a>
+    <a href="#" id="insta"><img src="/insta.svg"></a>
+    <a href="#" id="linkedin"><img src="/linkedin.svg"></a>
   </div>
-</footer>
+  <ul class="list">
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#">Team</a>
+    </li>
+    <li>
+      <a href="#">Showcase</a>
+    </li>
+    <li>
+      <a href="#">Blog</a>
+    </li>
+    <li>
+      <a href="#">Recruitment</a>
+    </li>
+    <li>
+      <a href="#">Contact us</a>
+    </li>
+  </ul>
+  <p class="copyright">Team Aerial Robotics, IITK @ 2023</p>
+</section>

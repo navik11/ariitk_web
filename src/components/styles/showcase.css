@@ -6,7 +6,7 @@
 }
 
 .showcase-text {
-  height: 60vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,15 +19,17 @@
 }
 
 .showcase h1 {
-  box-shadow: 0 2px 10px rgb(0 0 0 / 0.8);
+  /* box-shadow: 0 2px 10px rgb(0 0 0 / 0.8); */
+  font-family: GalanoB;
   text-decoration: double;
   padding: 0rem 1rem;
-  font-size: 100px;
+  font-size: 90px;
   margin-bottom: 20px;
 }
 
 .showcase p {
   font-size: 24px;
+  font-family: GalanoB;
   margin-bottom: 20px;
 }
 
@@ -48,7 +50,7 @@
 /* Video */
 .video-container {
   z-index: -2;
-  height: 60vh;
+  height: 40vh;
   width: 100%;
   position: relative;
   background-color: black;
